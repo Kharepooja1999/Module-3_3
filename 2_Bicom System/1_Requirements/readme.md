@@ -7,4 +7,4 @@ this project focus on the BI-Directional ways.A BiCom system is a extension of u
 * to get battery information about the car ,then all LED should be in colckwise manner.
 * to get Door status of the car ,then all LED should be in anti-clockwise manner.
 
-Based on the press count of the switch (1-4)the above mentioned features are going to work accordingly 
+Based on the press count of the switch (1-4)the above mentioned features are going to work accordingly; 
