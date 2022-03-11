@@ -29,7 +29,7 @@
 
       * [Low Level Testplan](#low-level-testplan)
    
-   7. [Application and Advantages](#application-and-advantages)
+   7. [Applications](#applications)
 
 # Abstract
 In our modern society comfort became a standard. This comfort, especially in cars can only be achieved by equipping the car with more electronic devices. Some of the electronic devices must cooperate with each other and thus they require a communication channel, which can be wired or wireless. In these days, it would be hard to sell a new car operating with traditional keys. Almost all modern cars can be locked or unlocked with a Remote Keyless System. A Remote Keyless System consists of a key fob that communicates wirelessly with the car transceiver that is responsible for locking and unlocking the car. However there are several threats for wireless communication channels. 
@@ -101,3 +101,8 @@ Main function of this RKE system are
 | HLT2 | LLT1 | All the LED's should OFF at the same time |User press button twice|All LED's OFF|All LED's OFF|✔|
 | HLT3 | LLT1 | All the LED's should ON in clockwise manner |User press button thrice|All LED's ON in clockwise manner|All LED's ON in clockwise manner|✔|
 | HLT4 | LLT1 | All the LED's should ON in anti-clockwise manner |User press button four times|All LED's ON in anti-clockwise manner|All LED's ON in anti-clockwise manner|✔|
+
+# Applications
+-   It provides vehicle owners with a degree of convenience, making the task of physically inserting a key unnecessary.
+-   If someone tries to unclock the vehicle without pressing key buttons, then the key alarms get activated and user gets aware of the situation.
+-   It is used in the smart home applications. A keyless entry system offers enhanced security and greater convenience for people with mobility issues and those who find             themselves arriving at the front door with their hands full.
