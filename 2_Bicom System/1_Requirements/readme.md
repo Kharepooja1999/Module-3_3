@@ -23,3 +23,5 @@ It is an advanced C/C++ development platform with peripheral configuration, code
 |HLR2| System shall be able to print Window status of automobile  |
 |HLR3| System shall be able to print Car Battery information  |
 |HLR4| System Shall be able to print Door status of the automobile  |
+## Low level requirements:
+
