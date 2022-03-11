@@ -1,17 +1,18 @@
-# TEST PLAN AND OUTPUT
-## HIGH LEVEL TEST PLAN
-|TEST ID |DESCRIPTION|INPUT|EXPECTED OUTPUT|ACTUAL OUTPUT|
-|:-----|:----|:---|:----|:----|
-|HLT1|The system shall print window status|User press button|Car locked|Car locked|
-|HLT2|The system shall unlock the car doors|User press button|Car unlocked|Car unlocked|
-|HLT3|The system shall control the alaram| User press buttom|Car alaram activate/deactivate|Car alaram activate/deactivate|
-|HLT4|The system shall approach the lights|User press button|Car approach light|Car approach light|
-## LOW LEVEL TEST PLAN
-|ID|	DESCRIPTION|	INPUT|	EXPECTED OUTPUT|	ACTUAL OUTPUT|
-|:-----|:----|:-----|:-----|:-----|
-|HLT1|	All the LED's should ON at the same time	User press button once|	All LED's ON|	All LED's ON|	✔|
-|HLT2|	All the LED's should OFF at the same time	User press button twice|	All LED's OFF|	All LED's OFF|	✔|
-|HLT3	|All the LED's should ON in clockwise manner	User press button thrice|	All LED's ON in clockwise manner|	All LED's ON in clockwise manner|	✔|
-|HLT4|	All the LED's should ON in anti-clockwise manner	User press button four times|	All LED's ON in anti-clockwise manner|	All LED's ON in anti-clockwise manner|	✔|
+# TestPlan and Output
+## High Level Test Plan
+| Test Id | Description | Exp I/P | Exp O/P | Actual O/P | Status |
+|---------|-------------|---------|---------|------------|---------------|
+| HL01 | Status of Window | User 1 Button Press | Window Activated | Window Activated |  |
+| HL02 | Status of Alarm | User 2 Button Press | Alarm Detected | Alarm Detected |  |
+| HL03 | Status of Battery | User 3 Button Press | Battery Displayed | Battery Displayed |  |
+| HL04 | Status of Door | User 4 Button Press | Door Detected | Door Detected |  |
+## Low Level Test Plan
+| Test Id | Description | Exp I/P | Exp O/P | Actual O/P | Status |
+|---------|-------------|---------|---------|------------|---------------|
+| LL01 | Check for Window | User prsses the Button Once | All LED's turn On | All LED's turn On |   |
+| LL02 | Check for Alarm | User prsses the Button Twice | All LED's turn Off | All LED's turn Off |  |
+| LL03 | Check for Battery | User presses the Button Thrice | LED's On in clockwise direction | LED's On in clockwise direction |  |
+| LL04 | Check for Door | User presses the Button Four times | LED's On in anticlockwise direction | LED's On in anticlockwise direction | | 
+
 
 
