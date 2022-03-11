@@ -10,6 +10,12 @@ Remote Keyless Entry (RKE) systems are the successors to the traditional method 
 * It activates or deactivates alarm when the button is pressed three times.
 * It approaches the lights when the button is pressed four times.
 
+# Components
+## Microcontroller
+- We are using STM32 Discovery Board to compute our project.It is a 32-bit microcontroller integrated circuits  Design by STMicroelectronics.
+## STM32CubeIDE
+- It is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors.
+
 # Requirements
 ## High Level Requirements
 | ID | Description |
