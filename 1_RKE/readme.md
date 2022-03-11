@@ -6,7 +6,7 @@
    |:---:|:---:|:---:|
    | 1_Requirements | Abstract, Features, State of art | Anusha|
    |                | SWOT Analysis, 5W'S & 1H | Anusha |
-   |                | High and Low Level Requirements |Bogi Raju |
+   |                | High and Low Level Requirements |Anusha |
    | 2_Architectures | Block Diagram and Components | Ram |
    |                 | Structural & Behavioural diagrams | Ram |
    | 3_Implementation | Source Code files | Pooja,Anusha, Ram, Bogi raju |
