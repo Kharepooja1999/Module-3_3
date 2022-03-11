@@ -38,5 +38,6 @@ It is an advanced C/C++ development platform with peripheral configuration, code
 |STRENGTHS|WEAKNESS|OPPORTUNITIES|THREATS|
 |:----|:----|:---|:----|
 |Transmission between the car and key are encrypted to prevent theft|The system works on a certain limited range |Scope of the system is huge in our automobile |if our remote lost then automobile security is in more trouble|
-|
+|No human interaction required|Water and dust can affect the system |User friendly system|Cannot multitask in same time|
+|High security|limited user range|Cost effective|Battery replacement required frequently|
 
