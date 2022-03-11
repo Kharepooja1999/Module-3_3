@@ -10,3 +10,8 @@ The term bi-com, is also called keyless entry or remote central locking, refers 
 * to get Door status of the car ,then all LED should be in anti-clockwise manner.
 
 Based on the press count of the switch (1-4)the above mentioned features are going to work accordingly. 
+# Components
+## Microcontroller:
+We are using STM32 Discovery Board to compute our project.It is a 32-bit microcontroller integrated circuits Design by STMicroelectronics.
+## STM32CubeIDE:
+It is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors
