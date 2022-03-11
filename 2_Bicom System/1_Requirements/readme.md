@@ -3,6 +3,10 @@
 this project focus on the BI-Directional ways.A BiCom system is a extension of undirectional RKE to bidirectional RKE ststem .which is a capable of two way communication system and it is from uni -directional system
 
 The term bi-com, is also called keyless entry or remote central locking, refers to a lock that uses an electronic remote control as a key which is activated by a handheld device or automatically by proximity. Widely used in automobiles, an RKS performs the functions of a standard car key without physical contact. When within a few yards of the car, pressing a button on the remote can lock or unlock the doors, and may perform other functions
+# Research:
+* BiCom system ,is a system that is designed to remotely lock or unlock the automobiles, RKE(Remote Keyless entry)system operates by broadcasting radio waves on a particular frequency unidirectionally,RKE systems implement encryption algorithms to prevent car thieves from intercepting and spoofing the telegrams..
+ * BiCom system, which is nothing but the simple extension of the unidirectional RKE system into bidirectional RKE system.
+ * BiCom system works in both the ways, as like RKE it sends the data but also recieve the data from the vehicle in which it is being implimented.
 # Functions of RKE Bi-directional system:
 * to get alaram in the car ,then all LED should OFF at the same time
 * to get window status of the car, then all LED should ON at the same time.
