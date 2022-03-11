@@ -33,3 +33,6 @@ Remote Keyless Entry (RKE) systems are the successors to the traditional method 
 
 # SWOT Analysis
 ![swot](https://user-images.githubusercontent.com/47153476/157834202-808aac63-9bf8-4516-9dbf-be780dc00499.PNG)
+
+# 5W's & 1H
+![5Ws1H](https://user-images.githubusercontent.com/47153476/157845479-103a1929-7ba7-4baa-b4fc-44159e48d930.PNG)
