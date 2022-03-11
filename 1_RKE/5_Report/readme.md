@@ -89,18 +89,18 @@ Main function of this RKE system are
 ## High Level TestPlan
 | ID | Description |Input| Expected Output|Actual Output|Status|
 |-----|------------|------|-------|------------|-----------|
-| HLT1 | The system shall locks the car doors |User press button |Car locked|Car locked|✔|
-| HLT2 | The system shall unlocks the car doors |User press button |Car unlocked|Car unlocked|✔|
-| HLT3 | The system shall control the alarm |User press button |Car alarm activate/deactivate|Car alarm activate/deactivate|✔|
-| HLT4 | The system shall approch the lights |User press button |Car approach light|Car approach light|✔|
+| HLT1 | The system shall locks the car doors |User press button |Car locked|Car locked||
+| HLT2 | The system shall unlocks the car doors |User press button |Car unlocked|Car unlocked||
+| HLT3 | The system shall control the alarm |User press button |Car alarm activate/deactivate|Car alarm activate/deactivate||
+| HLT4 | The system shall approch the lights |User press button |Car approach light|Car approach light||
 
 ## Low Level TestPlan
 | Category | ID | Description |Input| Expected Output|Actual Output|Status|
 |----------|----|--------------|------|-----------|---------------|--------|
-| HLT1 | LLT1 | All the LED's should ON at the same time |User press button once|All LED's ON|All LED's ON|✔|
-| HLT2 | LLT1 | All the LED's should OFF at the same time |User press button twice|All LED's OFF|All LED's OFF|✔|
-| HLT3 | LLT1 | All the LED's should ON in clockwise manner |User press button thrice|All LED's ON in clockwise manner|All LED's ON in clockwise manner|✔|
-| HLT4 | LLT1 | All the LED's should ON in anti-clockwise manner |User press button four times|All LED's ON in anti-clockwise manner|All LED's ON in anti-clockwise manner|✔|
+| HLT1 | LLT1 | All the LED's should ON at the same time |User press button once|All LED's ON|All LED's ON||
+| HLT2 | LLT1 | All the LED's should OFF at the same time |User press button twice|All LED's OFF|All LED's OFF||
+| HLT3 | LLT1 | All the LED's should ON in clockwise manner |User press button thrice|All LED's ON in clockwise manner|All LED's ON in clockwise manner||
+| HLT4 | LLT1 | All the LED's should ON in anti-clockwise manner |User press button four times|All LED's ON in anti-clockwise manner|All LED's ON in anti-clockwise manner||
 
 # Applications
 -   It provides vehicle owners with a degree of convenience, making the task of physically inserting a key unnecessary.
