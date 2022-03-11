@@ -34,4 +34,9 @@ It is an advanced C/C++ development platform with peripheral configuration, code
 |LLR03.2|When the button is pressed LED's shall be on in anti-clockwise direction| HLR03|
 |LLR04.1|When the button is pressed all the LED's shall be on|HLR04 |
 |LLR04.2|When the button is pressed LED's shall be on in anti-clockwise direction| HLR04 |
+# SWOT Analysis:
+|STRENGTHS|WEAKNESS|OPPORTUNITIES|THREATS|
+|:----|:----|:---|:----|
+|Transmission between the car and key are encrypted to prevent theft|The system works on a certain limited range |Scope of the system is huge in our automobile |if our remote lost then automobile security is in more trouble|
+|
 
