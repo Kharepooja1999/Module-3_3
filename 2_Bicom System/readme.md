@@ -1,4 +1,5 @@
 # Bicom system
+![Bicom](https://user-images.githubusercontent.com/47153476/157934891-f4a36e22-cbb9-4753-8b24-aac37120275d.PNG)
 ## Folder Structure and Contributors:-
    | Folder | Description | Contributors |
    |:---:|:---:|:---:|
