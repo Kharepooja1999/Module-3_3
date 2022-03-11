@@ -24,4 +24,14 @@ It is an advanced C/C++ development platform with peripheral configuration, code
 |HLR3| System shall be able to print Car Battery information  |
 |HLR4| System Shall be able to print Door status of the automobile  |
 ## Low level requirements:
+|LLR ID|DESCRIPTION| HLR ID|
+|:----|:---|:---|
+|LLR01.1|When the button is pressed all the LED's shall be on  |HLR01  |
+|LLR01.2| All the LED's shall be on at the same time-Green-->on Orange-->on Red-->on Blue-->on  | HLR01 |
+|LLR02.1|When the button is pressed all the LED's shall be off at the same time|HLR02   |
+|LLR02.2|All the LED's shall be off at the same time-Green-->off Orange-->off Red-->off Blue-->off|HLR02  |
+|LLR03.1|When the button is pressed all the LED's shall be on| HLR03 |
+|LLR03.2|When the button is pressed LED's shall be on in anti-clockwise direction| HLR03|
+|LLR04.1|When the button is pressed all the LED's shall be on|HLR04 |
+|LLR04.2|When the button is pressed LED's shall be on in anti-clockwise direction| HLR04 |
 
