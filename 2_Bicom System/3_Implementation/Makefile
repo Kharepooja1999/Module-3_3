@@ -1,6 +1,6 @@
 CC=arm-none-eabi-gcc
 CFLAGS=-c -mcpu=cortex-m4 -mthumb -std=gnu11 -Wall -O0
-LDFLAGS= -nostdlib -T link.ld 
+LDFLAGS= -nostdlib -T linker.ld 
 
 all:clean main.o function.o startup.o final.elf qemu
 
@@ -10,7 +10,7 @@ main.o:main.c
 function.o:function.c
 	$(CC) $(CFLAGS) function.c -o function.o
 
-interrupts.o:startup.c
+startup.o:startup.c
 	$(CC) $(CFLAGS) startup.c -o startup.o
 
 final.elf: main.o function.o startup.o
