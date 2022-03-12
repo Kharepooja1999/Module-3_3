@@ -1,23 +1,22 @@
-CC=arm-none-eabi-gcc
-CFLAGS=-c -mcpu=cortex-m4 -mthumb -std=gnu11 -Wall -O0
-LDFLAGS= -nostdlib -T link.ld 
+CC= arm-none-eabi-gcc
+CFLAGS=-c -mcpu=cortex-m4 -mthumb -std=gnu11 -Wall -o0
+LDFLAGS= -nostdlib -T stm32_ls.ld
 
-all:clean main.o function.o startup.o final.elf qemu
+all:main.o MyStm32f407xx_gpio_driver.o stm32_startup.o finalled.elf
 
 main.o:main.c
 	$(CC) $(CFLAGS) main.c -o main.o
-	
-function.o:function.c
-	$(CC) $(CFLAGS) function.c -o function.o
 
-interrupts.o:startup.c
-	$(CC) $(CFLAGS) startup.c -o startup.o
+MyStm32f407xx_gpio_driver.o:MyStm32f407xx_gpio_driver.c
+	$(CC) $(CFLAGS) -o $@ $^
 
-final.elf: main.o function.o startup.o
-	$(CC) $(LDFLAGS) main.o function.o startup.o -o final.elf
+stm32_startup.o:stm32_startup.c
+	$(CC) $(CFLAGS) -o $@ $^
 
-qemu:
-	qemu-system-gnuarmeclipse.exe -M STM32F4-Discovery -mcu STM32F407VG -kernel final.elf
+finalled.elf:main.o MyStm32f407xx_gpio_driver.o stm32_startup.o
+	$(CC) $(LDFLAGS) -o $@ $^
+
+
 
 clean:
 	rm -rf *.o *.elf
