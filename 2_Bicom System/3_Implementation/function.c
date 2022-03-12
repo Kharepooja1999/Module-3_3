@@ -1,28 +1,23 @@
 #include "function.h"
-const int en1 = 1;                   
-const int en2 = 2;                   
-const int en3 = 3;                 
-const int en4 = 4;                
-int x;
-
-void my_delay(uint32_t time) 
+void my_delay(uint32_t time)
 {
 	for (uint32_t i = 0; i < time * 100000; i++)
-	{	
-		x++;
-		x=x-x/2;
+	{
+		
+		
 	}
 }
-void led_init_all(void) 
+void led_init_all(void)           
 {
 
-	uint32_t *pRccAhb1enr = (uint32_t *)0x40023830; 
-	*pRccAhb1enr |= (1 << 3);						
-	uint32_t *pGpiodModeReg = (uint32_t *)0x40020C00;  
-	*pGpiodModeReg |= (1 << (2 * LED_GREEN));   
-	*pGpiodModeReg |= (1 << (2 * LED_ORANGE));  
-	*pGpiodModeReg |= (1 << (2 * LED_RED));	    
-	*pGpiodModeReg |= (1 << (2 * LED_BLUE));   
+	uint32_t *pRccAhb1enr = (uint32_t *)0x40023830;         
+	*pRccAhb1enr |= (1 << 3);						        
+	uint32_t *pGpiodModeReg = (uint32_t *)0x40020C00;       
+	
+	*pGpiodModeReg |= (1 << (2 * LED_GREEN));      
+	*pGpiodModeReg |= (1 << (2 * LED_ORANGE));      
+	*pGpiodModeReg |= (1 << (2 * LED_RED));	         
+	*pGpiodModeReg |= (1 << (2 * LED_BLUE));       
 	led_off(LED_GREEN);	 // Green LED OFF
 	led_off(LED_ORANGE); // Orange LED OFF
 	led_off(LED_RED);	 // Red LED OFF
@@ -31,20 +26,20 @@ void led_init_all(void)
 void led_on(uint8_t led_no) // LED ON
 {
 	uint32_t *pGpiodDataReg = (uint32_t *)0x40020C14; 
-	*pGpiodDataReg |= (1 << led_no);				
+	*pGpiodDataReg |= (1 << led_no);				 
 }
 void led_off(uint8_t led_no) // LED OFF
 {
 	uint32_t *pGpiodDataReg = (uint32_t *)0x40020C14; 
-	*pGpiodDataReg &= ~(1 << led_no);				  
+	*pGpiodDataReg &= ~(1 << led_no);				 
 }
 void button_init(void)
 {
 	uint32_t *pRccAhb1enr1 = (uint32_t *)0x40023830; 
-	*pRccAhb1enr1 |= (1 << 0);						 
+	*pRccAhb1enr1 |= (1 << 0);						
 
 	uint32_t *pGpioPuPdReg = (uint32_t *)0x4002000C; 
-	*pGpioPuPdReg |= (1 << 1);						
+	*pGpioPuPdReg |= (1 << 1);						 
 }
 int button_count(void)
 {
@@ -64,16 +59,4 @@ int button_count(void)
 		}
 	}
 	return count; 
-}
-int encryption(int enc) 
-{
-	if (enc == en1)
-		return 3+3;
-	else if (enc == en2)
-		return 5+5;
-	else if (enc == en3)
-		return 10+15;
-	else if (enc == en4)
-		return 20+14;
-	return 0;
 }
