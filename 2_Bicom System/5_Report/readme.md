@@ -93,14 +93,14 @@ Based on the press count of the switch (1-4)the above mentioned features are goi
 ## High Level Testplan
 | Test Id | Description | Exp I/P | Exp O/P | Actual O/P | Status |
 |---------|-------------|---------|---------|------------|---------------|
-| HL01 | Status of Window | User 1 Button Press | Window Activated | Window Activated |  |
-| HL02 | Status of Alarm | User 2 Button Press | Alarm Detected | Alarm Detected |  |
-| HL03 | Status of Battery | User 3 Button Press | Battery Displayed | Battery Displayed |  |
-| HL04 | Status of Door | User 4 Button Press | Door Detected | Door Detected |  |
+| HL01 | Status of Window | User 1 Button Press | Window Activated | Window Activated | ✔ |
+| HL02 | Status of Alarm | User 2 Button Press | Alarm Detected | Alarm Detected | ✔ |
+| HL03 | Status of Battery | User 3 Button Press | Battery Displayed | Battery Displayed | ✔ |
+| HL04 | Status of Door | User 4 Button Press | Door Detected | Door Detected | ✔ |
 ## Low Level Testplan
 | Test Id | Description | Exp I/P | Exp O/P | Actual O/P | Status |
 |---------|-------------|---------|---------|------------|---------------|
-| LL01 | Check for Window | User prsses the Button Once | All LED's turn On | All LED's turn On |   |
-| LL02 | Check for Alarm | User prsses the Button Twice | All LED's turn Off | All LED's turn Off |  |
-| LL03 | Check for Battery | User presses the Button Thrice | LED's On in clockwise direction | LED's On in clockwise direction |  |
-| LL04 | Check for Door | User presses the Button Four times | LED's On in anticlockwise direction | LED's On in anticlockwise direction | | 
+| LL01 | Check for Window | User prsses the Button Once | All LED's turn On | All LED's turn On |   ✔|
+| LL02 | Check for Alarm | User prsses the Button Twice | All LED's turn Off | All LED's turn Off | ✔ |
+| LL03 | Check for Battery | User presses the Button Thrice | LED's On in clockwise direction | LED's On in clockwise direction | ✔ |
+| LL04 | Check for Door | User presses the Button Four times | LED's On in anticlockwise direction | LED's On in anticlockwise direction | ✔| 
